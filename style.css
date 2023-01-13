@@ -1,0 +1,220 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: white;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.menu-header {
+    display: flex;
+    gap: 32px;
+}
+
+.item-menu-header {
+    font-family: 'Sarala', sans-serif;
+    color: #384450;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.item-menu-header:hover {
+    color: #05171d;
+}
+
+.botao-header {
+    font-family: 'Sarala', sans-serif;
+    font-weight: bold;
+    padding: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #384450;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.botao-header:hover {
+    background-color: #05171d;
+}
+
+.primeira-parte-main {
+    display: flex;
+    background-color: #edf0f5;
+    flex-direction: row;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textos-primeira-parte {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo-principal {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 74px;
+    color: #384450;
+}
+
+.subtitulo-principal {
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    margin-top: -20px;
+    color: #7c91a6;
+}
+
+.botao-primeira-parte {
+    background-color: #384450;
+    border: none;
+    border-radius: 24px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 50px;
+}
+
+.botao-primeira-parte:hover {
+    background-color: #05171d;
+}
+
+.imagem-primeira-parte {
+    border-radius: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagem-primeira-parte:hover {
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.segunda-parte-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 58px;
+    margin-bottom: 58px;
+}
+
+.textos-segunda-parte-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-secundario {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: lighter;
+    color: #384450;
+}
+
+.subtitulo-secundario {
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 10px;
+    color: #7c91a6;
+}
+
+.titulos-segundas-parte-da-segunda-parte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 58px;
+    margin-bottom: 58px;
+}
+
+.numeracao-segunda-parte-da-segunda-parte {
+    position: relative; /* posicionar o círculo em relação ao elemento pai */
+    color: #7c91a6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.numeracao-segunda-parte-da-segunda-parte::before {
+    content: "";
+    position: absolute; /* posicionar o círculo em relação ao elemento */
+    top: -21px;
+    left: -21px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #eceff4;
+    z-index: -1; /* para colocar atrás do elemento irmão */
+}
+
+
+.titulo-segunda-parte-secundario {
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: lighter;
+    color: #384450;
+}
+
+.subtitulo-segunda-parte-secundario {
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 10px;
+    color: #7c91a6;
+}
+
+.org-titulo1-sub1-segunda-parte-da-segunda-parte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.org-titulo2-sub2-segunda-parte-da-segunda-parte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.org-titulo3-sub3-segunda-parte-da-segunda-parte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.terceira-parte-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 58px;
+    margin-bottom: 58px;
+    background-color: #edf0f5;
+}
+

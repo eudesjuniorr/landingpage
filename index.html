@@ -4,64 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="descrição do google.">
+    <link rel="stylesheet" href="style.css">
     <title>landpage</title>
 </head>
 <body>
-    <header>
-        <img class="logo-site" src="" alt="">
-        <nav>
-            <a class="menu-header" href="">menu 1</a>
-            <a class="menu-header" href="">menu 2</a>
-            <a class="menu-header" href="">menu 3</a>
-            <a class="menu-header" href="">menu 4</a>
+    <header class="cabecalho">
+        <img class="logo-site" src="image/quokka-logo-header-pequeno.png" alt="logo da pagina">
+        <nav class="menu-header">
+            <a class="item-menu-header" href="">menu 1</a>
+            <a class="item-menu-header" href="">menu 2</a>
+            <a class="item-menu-header" href="">menu 3</a>
+            <a class="item-menu-header" href="">menu 4</a>
         </nav>
         <button class="botao-header">cadastrar</button>
     </header>
-    <main>
-        <div class="primeira-parte-main">
-            <h1 class="titulo-principal">titulo 1</h1>
-            <h2 class="subtitulo-principal">subtiulo 1</h2>
-            <button class="botao-primeira-parte">Seja um afiliado</button>
-            <img class="imagem-principal-main" src="" alt="">
-        </div>
-        <div class="segunda-parte-main">
-            <h2 class="titulo-secundario">titulo 1</h2>
-            <h3 class="subtitulo-secundario">subtitulo 1</h3>
-            <div>
-                <img class="imagem-segunda-parte-secundario" src="" alt="">
-                <img class="imagem-segunda-parte-secundario" src="" alt="">
-                <img class="imagem-segunda-parte-secundario" src="" alt="">
-                <h2 class="titulo-segunda-parte-secundario">titulo 1</h2>
-                <h2 class="titulo-segunda-parte-secundario">titulo 2</h2>
-                <h2 class="titulo-segunda-parte-secundario">titulo 3</h2>
-                <h3 class="subtitulo-segunda-parte-secundario">subtitulo 1</h3>
-                <h3 class="subtitulo-segunda-parte-secundario">subtitulo 2</h3>
-                <h3 class="subtitulo-segunda-parte-secundario">subtitulo 3</h3>
+    <main class="corpo-principal">
+        <section class="primeira-parte-main">
+            <div class="textos-primeira-parte">
+                <h1 class="titulo-principal">titulo 1</h1>
+                <h2 class="subtitulo-principal">subtiulo 1</h2>
+                <button class="botao-primeira-parte">Seja um afiliado</button>
             </div>
-        </div>
-        <div class="terceira-parte-main">
-            <h2 class="titulo-terciario">titulo 1</h2>
-            <h3 class="subtitulo-terciario">subtitulo 1</h3>
-            <img class="imagem-terceira-parte" src="" alt="">
-            <img class="imagem-terceira-parte" src="" alt="">
-            <img class="imagem-terceira-parte" src="" alt="">
-            <img class="imagem-terceira-parte" src="" alt="">
-            <img class="imagem-terceira-parte" src="" alt="">
-        </div>
-        <div class="quarta-parte-main">
+            <img class="imagem-primeira-parte" src="image/quokka-conteudo-principal-menor.jpg" alt="quokka">
+        </section>
+        <section class="segunda-parte-main">
+            <div class="textos-segunda-parte-main">
+                <h2 class="titulo-secundario">titulo 1</h2>
+                <h3 class="subtitulo-secundario">subtitulo 1</h3>
+            </div>
+        </section>
+            <section class="titulos-segundas-parte-da-segunda-parte">
+                <div class="org-titulo1-sub1-segunda-parte-da-segunda-parte">
+                    <span class="numeracao-segunda-parte-da-segunda-parte">01</span>
+                    <h2 class="titulo-segunda-parte-secundario">titulo 1</h2>
+                    <h3 class="subtitulo-segunda-parte-secundario">subtitulo 1</h3>
+                </div>
+                <div class="org-titulo2-sub2-segunda-parte-da-segunda-parte">
+                    <span class="numeracao-segunda-parte-da-segunda-parte">02</span>
+                    <h2 class="titulo-segunda-parte-secundario">titulo 2</h2>
+                    <h3 class="subtitulo-segunda-parte-secundario">subtitulo 2</h3>
+                </div>
+                <div class="org-titulo3-sub3-segunda-parte-da-segunda-parte">
+                    <span class="numeracao-segunda-parte-da-segunda-parte">03</span>
+                    <h2 class="titulo-segunda-parte-secundario">titulo 3</h2>
+                    <h3 class="subtitulo-segunda-parte-secundario">subtitulo 3</h3>
+                </div>
+            </section>
+        <section class="terceira-parte-main">
+            <div class="textos-terceira-parte">
+                <h2 class="titulo-terciario">titulo 1 terciario</h2>
+                <h3 class="subtitulo-terciario">subtitulo 1</h3>
+            <div class="imagens-terceira-parte">
+                <img class="tamanho-imagem-terceira-parte" src="" alt="">
+                <img class="tamanho-imagem-terceira-parte" src="" alt="">
+                <img class="tamanho-imagem-terceira-parte" src="" alt="">
+                <img class="tamanho-imagem-terceira-parte" src="" alt="">
+                <img class="tamanho-imagem-terceira-parte" src="" alt="">
+            </div>
+            </div>
+        </section>
+        <section class="quarta-parte-main">
+            <div class="titulo-quarta-parte">
+                <h2 class="titulo-quaternario">titulo 1 quaternario</h2>
             <div class="caixas-de-texto-quarta-parte-main">
-                <h2 class="titulo-quaternario">titulo 1</h2>
                 <label for="name">Nome</label>
                 <input type="text" id="Name" name="Name" placeholder="Seu nome">
                 <label for="emal">Email</label>
                 <input type="text" id="Email" name="Email" placeholder="Seu email">
                 <label for="description">Conteúdo da mensagem</label>
-                <input type="text" id="description" name="description">
             </div>
-            <button class="botao-quarta-parte">enviar</button>
-        </div>
+                <button class="botao-quarta-parte">enviar</button></div>
+        </section>
     </main>
-    <footer>
+    <footer class="rodape">
         <img class="icones-footer" src="" alt="">
         <img class="icones-footer" src="" alt="">
         <img class="icones-footer" src="" alt="">
